@@ -1,0 +1,157 @@
+Here is a **ready-to-paste Replit Prompt** you can give to Replit AI (Ghostwriter / Replit Agent) to **generate the full mobile app** with the features you described.
+
+---
+
+# ✅ **Replit Prompt to Build the Mobile App**
+
+**Copy & paste the full prompt below into Replit AI:**
+
+---
+
+### **📱 Build a Mobile App for Neurodiverse Learners (React Native + Expo)**
+
+I want you to build a complete **React Native (Expo)** mobile app called **NeuroLearn**, designed to support learners with **Dyslexia, Dysgraphia, Dyscalculia, Auditory Processing Disorder, and Visual Processing Disorder**.
+
+### **APP DESCRIPTION**
+
+This app should be a **multi-modal learning product** with:
+
+* A **Math Game** designed for dyscalculia-friendly learning
+* A **Progress Tracking Dashboard** (charts, stats, badges)
+* Accessibility-first UI (large fonts, minimal clutter, high contrast)
+* Calm animations and audio cues
+* AI-based personalization hooks (dummy functions now)
+* Modular structure so I can scale later
+
+---
+
+### **📌 REQUIREMENTS**
+
+### **1. Home Screen**
+
+* Tiles for:
+
+  * Math Game
+  * Progress Dashboard
+  * Daily Learning Tasks
+  * Parent/Educator Tips
+* Use soft colors, accessible font sizes, and simple icons.
+
+---
+
+### **2. Math Game (Main Feature)**
+
+Build a math mini-game designed for dyscalculia support:
+
+* Large buttons, single question per screen
+* Difficulty levels
+* Timed + untimed mode
+* Immediate positive feedback
+* Types of tasks:
+
+  * Number recognition
+  * Simple addition/subtraction
+  * Shape & pattern matching
+  * Visual counting (dots, objects)
+* Save scores to local storage (AsyncStorage)
+
+---
+
+### **3. Progress Tracking Dashboard**
+
+Include:
+
+* Line chart for progress over time
+* Badges (e.g., “Consistency Star”, “5 Correct in a Row”)
+* Streak counter
+* Total sessions played
+* Personal best
+* Friendly messages like “You’re improving!”
+
+Use any chart library compatible with Expo (e.g., `react-native-chart-kit`).
+
+---
+
+### **4. Accessibility**
+
+* Adjustable font size
+* Colorblind-safe theme
+* Optional text-to-speech
+* Voice instructions for math questions
+* Haptic feedback (light vibration on success)
+
+---
+
+### **5. Architecture**
+
+Use:
+
+* React Native + Expo
+* Context API for global state
+* AsyncStorage for saving progress
+* Modular folder structure:
+
+  ```
+  /screens
+  /components
+  /services
+  /context
+  /assets
+  ```
+
+---
+
+### **6. Extra Features**
+
+Include placeholder screens (empty UI with text):
+
+* Parent & Educator Support Tools
+* Community Support
+* Personalization (AI) – just a dummy hook for now
+* Settings Page:
+
+  * Toggle sound
+  * Toggle animations
+  * Adjust difficulty
+  * Text size slider
+
+---
+
+### **7. Deliverables**
+
+Please generate:
+
+1. Full project folder structure
+2. All React Native code (screens, components, providers)
+3. Math game logic
+4. Dashboard with charts
+5. AsyncStorage implementations
+6. Clean UI with accessibility tweaks
+7. Onboarding screen explaining the mission
+8. Instructions on how to run on Replit or Expo Go
+
+---
+
+### **OUTPUT FORMAT**
+
+* Provide the complete code files as individual blocks
+* Make sure the app runs out-of-the-box
+* Do not summarize — give full project code
+* Use Expo Router if possible
+* Include comments so I understand each part
+
+---
+
+### **Build this entire mobile app now.**
+
+---
+
+If you want, I can also generate:
+
+✅ A full UI/UX Wireframe
+✅ API design for personalization
+✅ Firebase or Supabase backend integration
+✅ Gamification badges & reward system
+✅ Curriculum design for dyslexia/dyscalculia learners
+
+Just tell me!
